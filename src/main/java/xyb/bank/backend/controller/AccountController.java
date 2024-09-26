@@ -13,6 +13,6 @@ public class AccountController {
 
     @GetMapping("/info")
     public Account getAccountInfo() {
-        return new Account("Amit Raut", "Dallas, Texas, USA", "amit.raut@xyzbank.com", "Checking", 9876.54);
+        return new Account("Amit Sandeep Raut", "Dallas, Texas, USA", "amit.raut@xyzbank.com", "Checking", 9876.54);
     }
 }

@@ -15,7 +15,7 @@ public class PortfolioController {
     @GetMapping("/details")
     public Portfolio getPortfolioDetails() {
     
-        Account accountInfo = new Account("Amit Raut", "Dallas, Texas, USA", "amit.raut@xyzbank.com", "Checking", 9876.54);
+        Account accountInfo = new Account("Amit Raut", "Dallas, Texas, USA", "amit.raut@xyzbank.com", "ACN Checking Advantage 8345", 9876.54);
 
         return new Portfolio(
             accountInfo.getName(),
