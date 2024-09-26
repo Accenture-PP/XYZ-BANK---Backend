@@ -80,6 +80,8 @@ To run from the terminal:
 ./mvnw spring-boot:run
 ```
 
+
+
 ### 4. **Access the Endpoints**
 
 - `http://localhost:8080/portfolio/details` – This should return "Portfolio details".

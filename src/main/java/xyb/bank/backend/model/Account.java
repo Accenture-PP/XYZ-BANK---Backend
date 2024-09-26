@@ -36,5 +36,4 @@ public class Account {
         return balance;
     }
 
-    // Optionally, you can add setters here if needed
 }
