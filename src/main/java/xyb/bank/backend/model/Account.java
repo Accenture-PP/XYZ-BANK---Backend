@@ -1,5 +1,8 @@
 package xyb.bank.backend.model;
 
+import lombok.Getter;
+
+@Getter
 public class Account {
     private String name;
     private String address;
@@ -15,7 +18,6 @@ public class Account {
         this.balance = balance;
     }
 
-    // Getters
     public String getName() {
         return name;
     }
